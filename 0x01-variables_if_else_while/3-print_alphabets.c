@@ -1,7 +1,8 @@
 #include <stdio.h>
-/*
- * main - prints lower and upper case alphabets.
- *return alwys 0
+/**
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void) {
 	char lc, uc;
