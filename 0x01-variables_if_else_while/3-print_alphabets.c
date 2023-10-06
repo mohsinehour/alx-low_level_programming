@@ -4,7 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) {
+int main(void) 
+{
 	char lc, uc;
 
 	for (lc = 'a'; lc <= 'z'; lc++)
