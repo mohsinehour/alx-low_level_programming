@@ -3,17 +3,17 @@
  * main - prints lower and upper case alphabets.
  *return alwys 0
  */
-int main() {
+int main(void) {
 	char lc, uc;
 
-	for(lc = 'a'; lc <= 'z'; lc++)
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
 	}
-	for(uc = 'A'; uc <= 'Z'; uc++)
+	for (uc = 'A'; uc <= 'Z'; uc++)
 	{
-	putchar(uc);
+		putchar(uc);
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
