@@ -5,7 +5,7 @@
  * @n: number to check
  * Return: value of tha last digit
  */
- int print_last_digit(int)
+ int print_last_digit(int n)
 {
 	int a;
 
