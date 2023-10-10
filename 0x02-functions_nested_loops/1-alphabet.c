@@ -4,18 +4,14 @@
  * main -  prints the alphabet, in lowercase
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	void print_alphabet(void)
-	{
-		char i;
+	char i;
 
-		for (i = 'a'; i <= 'z'; i++)
-		{
-			_putchar(i);
-			_putchar('\n');
-		}
-		return (0);
+	for (i = 'a'; i <= 'z'; i++)
+	{
+		_putchar(i);
+		_putchar('\n');
 	}
 	return (0);
 }
