@@ -3,7 +3,9 @@
 /**
  * puts2 - prints every other character of a string, starting with the first character,
  * @str: string to be printed
+ * Return: print
  */
+
 void puts2(char *str)
 {
 	int longi = 0;
