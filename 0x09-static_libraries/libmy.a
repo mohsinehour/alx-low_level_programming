@@ -1,0 +1,3 @@
+#!/bin/bash
+gcc -c main.h -o main.o
+ar -rcs libmy.a main.o
