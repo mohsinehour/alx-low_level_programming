@@ -5,7 +5,7 @@
  * free_grid - frees a 2 dimensional grid previously
  *
  * @grid: grid to free
- * 
+ *
  * @height: height input
  */
 
