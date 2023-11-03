@@ -20,7 +20,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		s2 = "";
 	for (i = 0; s1[i]; i++)
 		;
-	for (j = 0; s2[j]; j++)
+	for (j = 0; s2[j] && j < n; j++)
 		;
 	if (n >= j)
 		n = j;
