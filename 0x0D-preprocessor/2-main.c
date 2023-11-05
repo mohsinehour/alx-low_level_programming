@@ -1,6 +1,7 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
 	_putchar("%s\n", __FILE__);
+	return (0);
 }
