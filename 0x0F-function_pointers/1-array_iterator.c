@@ -4,7 +4,7 @@
 /**
  * array_iterator - function that executes a function given as a parameter
  * @array: array parameter
- * @@size: size of the array
+ * @size: size of the array
  * @action :pointer to a function
  * Return: void
  */
