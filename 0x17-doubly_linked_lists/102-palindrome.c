@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdbool.h>
 
+/**
+ * is_palindrome - Checks whether a given integer n is a palindrome or not
+ * @n: The integer to be checked for palindrome.
+ * Return: 1 if n is a palindrome, 0 otherwise.
+ */
 int is_palindrome(int n)
 {
 	int original = n;
@@ -14,7 +19,11 @@ int is_palindrome(int n)
 	return (original == reverse);
 }
 
-int find_largest_palindrome()
+/**
+ * find_largest_palindrome - Finds the largest palindrome
+ * Return: The largest palindrome.
+ */
+int find_largest_palindrome(void)
 {
 	int max_palindrome = 0;
 
@@ -27,13 +36,17 @@ int find_largest_palindrome()
 			if (is_palindrome(product) && product > max_palindrome)
 			{
 				max_palindrome = product;
-            		}
-        	}
+			}
+		}
 	}
-    return (max_palindrome);
+	return (max_palindrome);
 }
 
-int main()
+/**
+ * main - the execution function
+ * Return: An integer representing the exit status of the program.
+ */
+int main(void)
 {
 	int result = find_largest_palindrome();
 	FILE *file = fopen("102-result", "w");
